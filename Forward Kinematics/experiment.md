@@ -4,3 +4,5 @@ https://colab.research.google.com/drive/1UQ45sbfZoLPp3M34B1Wntk5NO0i-uUAL#scroll
 # Inverse Kinematics
 Go to following website and download the following
 https://github.com/xArm-Developer/xarm_ros
+or
+https://drive.google.com/drive/folders/1uSsd03_O8pYyoV8pMSt20cNS7_DvspYZ?usp=sharing
