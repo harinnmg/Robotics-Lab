@@ -20,7 +20,7 @@ if __name__ == '__main__':
     rate = rospy.Rate(10.0)
     while not rospy.is_shutdown():
         try:
-            (trans, rot) = listener.lookupTransform('/link1', '/link2', rospy.Time(0))
+            (trans, rot) = listener.lookupTransform('/link_base', '/link5', rospy.Time(0))
             # trans contains the translation vector (x, y, z)
             # rot contains the rotation quaternion (x, y, z, w)
             rospy.loginfo("Transform from frame1 to frame2: translation={}, rotation={}".format(trans, rot))
